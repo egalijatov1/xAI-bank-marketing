@@ -8,6 +8,9 @@ Explainable Artificial Intelligence applied on models trained for prediction of 
   - very imbalanced data: 
   
     ![image](https://user-images.githubusercontent.com/88715320/155523915-21954ce8-4040-4df6-881a-c2d75afc21ab.png)
+ - an extensive data exploration was conducted to get overall insight into the data
+ - various different preprocessing as well as feature extraction techniques were tested (ones with the best performance are in the notebook)
+
 
 # EVALUATION
 Accuracy is not a good evaluation method for imbalanced datasets, which is why **precision** is used instead (under assumption that false positives would make worse impact than false negatives).
